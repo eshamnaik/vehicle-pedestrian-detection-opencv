@@ -1,29 +1,84 @@
-# 🚗🚶 Vehicle and Pedestrian Detection Using OpenCV
+🚗 VEHICLE AND PEDESTRIAN DETECTION USING OPENCV
 
-This is a simple computer vision project that detects cars and pedestrians in a video using OpenCV and Haar Cascade classifiers.
+❓ ABOUT THE PROJECT
 
-## 🔍 Why I Built This
+This project is a real-time object detection system that identifies vehicles and pedestrians in video footage using OpenCV's Haar Cascade classifiers. It's a beginner-friendly project to understand how basic object tracking works using frame-by-frame video processing.
 
-I was curious about how object detection works in real-time — especially in things like CCTV, traffic systems, and autonomous vehicles. So, I built this to experiment and understand how detection really happens behind the scenes.
+📄 FOLDER STRUCTURE
 
-## 📁 Project Structure
+vehicle-pedestrian-detection-opencv/
+|
+|│-- main.py                         # Python script for detection
+|│-- requirements.txt                # List of required libraries
+|│-- Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb  # Jupyter notebook version
+|
+|├-- haarcascades/
+|│   ├-- haarcascade_car.xml         # XML file for car detection
+|│   └-- haarcascade_fullbody.xml    # XML file for pedestrian detection
+|
+└-- Dataset (Sample Videos)/
+    └-- my_video.mp4                # Sample video file used
 
-- `main.py`: Main Python script for detection
-- `haarcascades/`: Contains XML classifiers (`cars.xml` and `haarcascade_fullbody.xml`)
-- `Dataset (Sample Videos)/`: Video file folder (`my_video.mp4`)
-- `requirements.txt`: Python dependencies for this project
+✅ OBJECT DETECTION USING HAAR CASCADE
 
-## ▶️ How to Run
+Haar Cascade Classifiers are trained from lots of positive and negative images:
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+Positive images: Contain the objects we want to detect (e.g., cars or humans).
 
-## 🎯 Output
+Negative images: Contain anything but the object of interest.
 
-The video will open and draw rectangles around cars (in red) and pedestrians (in yellow) in real-time.
+OpenCV has many pre-trained Haar XML files which can detect various objects. In this project, we use the XML files for cars and pedestrians.
 
-## 🙏 Credits
+🔖 SETUP & USAGE
 
-- Haar cascades used are from [OpenCV](https://opencv.org/)
-- Project idea and structure inspired by [PrathimaCode-Hub/ML-ProjectKart](https://github.com/PrathimaCode-Hub/ML-ProjectKart)
+Step 1: Clone the Repo
+
+git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git
+cd vehicle-pedestrian-detection-opencv
+
+Step 2: Install Required Packages
+
+pip install -r requirements.txt
+
+Step 3: Run the Script
+
+Make sure the video and XML files are in their respective folders.
+
+python main.py
+
+🎥 RESULT SNAPSHOT
+
+Red bounding boxes for detected vehicles.
+
+Yellow bounding boxes for detected pedestrians.
+
+🔧 THINGS I LEARNED
+
+How to use Haar Cascades for object detection
+
+Frame-by-frame video processing in OpenCV
+
+Drawing bounding boxes and adding labels
+
+Structuring a computer vision project
+
+🚀 POSSIBLE IMPROVEMENTS
+
+Replace Haar Cascades with YOLO or SSD for better accuracy
+
+Add tracking logic to follow objects across frames
+
+Use webcam instead of pre-recorded video
+
+💼 CREDITS
+
+Haar Cascades: OpenCV GitHub
+
+Reference Project: PrathimaCode-Hub / ML-ProjectKart
+
+🙏 CREATED BY
+
+Esha M Naik
+
+"Sometimes curiosity is the best teacher."
+
