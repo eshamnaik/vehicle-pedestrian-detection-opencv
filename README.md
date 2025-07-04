@@ -13,7 +13,7 @@ This project is a real-time object detection system that identifies vehicles and
 ---
 
 ## 📄 FOLDER STRUCTURE
-vehicle-pedestrian-detection-opencv/ ├──   
+<pre lang="markdown"> ```bash vehicle-pedestrian-detection-opencv/ ├──   
   ├── main.py # Python script for detection  
   ├── requirements.txt # Required libraries  
   ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version  
@@ -21,7 +21,7 @@ vehicle-pedestrian-detection-opencv/ ├──
     └──haarcascade_car.xml # Classifier for vehicle detection │  
     └── haarcascade_fullbody.xml # Classifier for pedestrian detection  
   ├── Dataset (Sample Videos)/  
-    └── my_video.mp4 # Sample video input
+    └── my_video.mp4 # Sample video input ``` </pre>
 
 ---
 
