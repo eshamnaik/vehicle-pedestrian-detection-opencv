@@ -13,7 +13,15 @@ This project is a real-time object detection system that identifies vehicles and
 ---
 
 ## 📄 FOLDER STRUCTURE
-<pre lang="markdown"> ```bash vehicle-pedestrian-detection-opencv/ │ ├── main.py # Python script for detection ├── requirements.txt # Required libraries ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version ├── haarcascades/ │ ├── haarcascade_car.xml # Classifier for vehicle detection │ └── haarcascade_fullbody.xml # Classifier for pedestrian detection └── Dataset (Sample Videos)/ └── my_video.mp4 # Sample video input ``` </pre>
+<pre lang="markdown"> ```bash vehicle-pedestrian-detection-opencv/ │  
+  ├── main.py # Python script for detection  
+  ├── requirements.txt # Required libraries  
+  ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version  
+  ├── haarcascades/ │   
+    ├── haarcascade_car.xml # Classifier for vehicle detection │  
+    └── haarcascade_fullbody.xml # Classifier for pedestrian detection  
+  └── Dataset (Sample Videos)/  
+  └── my_video.mp4 # Sample video input ``` </pre>  
 
 ---
 
@@ -21,20 +29,19 @@ This project is a real-time object detection system that identifies vehicles and
 
 ### 1. Clone the Repository and Install Requirements
 
-git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git
-cd vehicle-pedestrian-detection-opencv
-pip install -r requirements.txt
-python main.py
----
- 🔍 WHAT TO EXPECT FROM THE OUTPUT
+git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git   
+cd vehicle-pedestrian-detection-opencv  
+pip install -r requirements.txt  
+python main.py  
+---  
+ 🔍 WHAT TO EXPECT FROM THE OUTPUT  
 
-✅ This is what happens after running the script:**
+✅ This is what happens after running the script:**  
 
-🟢 **Code finishes successfully after:** `python main.py`  
-📽️ The video will display frame-by-frame, with object detection.)
-🔴 **Red Boxes** → Detected **Vehicles** 
-🟡 **Yellow Boxes** → Detected **Pedestrians**
-
+🟢 **Code finishes successfully after:** `python main.py`    
+📽️ The video will display frame-by-frame, with object detection.)  
+🔴 **Red Boxes** → Detected **Vehicles**   
+🟡 **Yellow Boxes** → Detected **Pedestrians**  
 
 ##CREDITS
 https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0
