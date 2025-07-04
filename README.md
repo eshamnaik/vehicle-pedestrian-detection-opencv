@@ -18,10 +18,10 @@ vehicle-pedestrian-detection-opencv/ ├──
   ├── requirements.txt # Required libraries  
   ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version  
   ├── haarcascades/ │   
-    ├── haarcascade_car.xml # Classifier for vehicle detection │  
+    └──haarcascade_car.xml # Classifier for vehicle detection │  
     └── haarcascade_fullbody.xml # Classifier for pedestrian detection  
-  └── Dataset (Sample Videos)/  
-  └── my_video.mp4 # Sample video input ``` </pre>  
+  ├── Dataset (Sample Videos)/  
+    └── my_video.mp4 # Sample video input ``` </pre>  
 
 ---
 
