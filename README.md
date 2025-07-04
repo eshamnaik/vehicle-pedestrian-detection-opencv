@@ -21,7 +21,7 @@ vehicle-pedestrian-detection-opencv/ ├──
     └──haarcascade_car.xml # Classifier for vehicle detection │  
     └── haarcascade_fullbody.xml # Classifier for pedestrian detection  
   ├── Dataset (Sample Videos)/  
-    └── my_video.mp4 # Sample video input ``` </pre>  
+    └── my_video.mp4 # Sample video input
 
 ---
 
