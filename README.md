@@ -13,7 +13,7 @@ This project is a real-time object detection system that identifies vehicles and
 ---
 
 ## 📄 FOLDER STRUCTURE
-vehicle-pedestrian-detection-opencv/ ├── 
+vehicle-pedestrian-detection-opencv/ ├──   
   ├── main.py # Python script for detection  
   ├── requirements.txt # Required libraries  
   ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version  
