@@ -46,4 +46,4 @@ This project is a real-time object detection system that identifies vehicles and
 https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0
 https://pypi.org/project/opencv-python/
 
-😎 CREATOR- https://github.com/theshredbox
+CREATOR- https://github.com/theshredbox
