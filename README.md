@@ -34,7 +34,6 @@ vehicle-pedestrian-detection-opencv/
 
 ### 1. Clone the Repository and Install Requirements
 
-```bash
 git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git
 cd vehicle-pedestrian-detection-opencv
 pip install -r requirements.txt
@@ -44,8 +43,14 @@ python main.py
 
 ✅ This is what happens after running the script:**
 
-- 🟢 **Code finishes successfully after:** `python main.py`  
-- 📽️ The video will display frame-by-frame, with object detection.
-
-🔴 **Red Boxes** → Detected **Vehicles**  
+🟢 **Code finishes successfully after:** `python main.py`  
+📽️ The video will display frame-by-frame, with object detection.)
+🔴 **Red Boxes** → Detected **Vehicles** 
 🟡 **Yellow Boxes** → Detected **Pedestrians**
+
+
+##CREDITS
+https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0
+https://pypi.org/project/opencv-python/
+
+😎 CREATOR- https://github.com/theshredbox
