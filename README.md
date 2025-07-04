@@ -13,7 +13,7 @@ This project is a real-time object detection system that identifies vehicles and
 ---
 
 ## 📄 FOLDER STRUCTURE
-<pre lang="markdown"> ```bash vehicle-pedestrian-detection-opencv/ │  
+vehicle-pedestrian-detection-opencv/ ├── 
   ├── main.py # Python script for detection  
   ├── requirements.txt # Required libraries  
   ├── Vehicles_and_Pedestrian_Tracking_Using_OpenCV.ipynb # Jupyter version  
@@ -28,11 +28,10 @@ This project is a real-time object detection system that identifies vehicles and
 ## 🛠️ HOW TO RUN
 
 ### 1. Clone the Repository and Install Requirements:
--
-git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git   
-cd vehicle-pedestrian-detection-opencv  
-pip install -r requirements.txt  
-python main.py  
+- git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git 
+- cd vehicle-pedestrian-detection-opencv  
+- pip install -r requirements.txt  
+- python main.py  
 ---  
  🔍 WHAT TO EXPECT FROM THE OUTPUT  
 
