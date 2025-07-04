@@ -27,7 +27,7 @@ This project is a real-time object detection system that identifies vehicles and
 
 ## 🛠️ HOW TO RUN
 
-### 1. Clone the Repository and Install Requirements
+1. Clone the Repository and Install Requirements
 
 git clone https://github.com/eshamnaik/vehicle-pedestrian-detection-opencv.git   
 cd vehicle-pedestrian-detection-opencv  
